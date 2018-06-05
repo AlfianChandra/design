@@ -18,10 +18,107 @@ body
 
 .main-heading
 {
-  position:relative;
-  top:0;
-  left:0;
   width:100%;
   padding:10px;
-  background-image:url("")
+  float:left;
+  box-sizing:border-box;
+  background-image:url("../material/header/bg.png");
+  background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;
+}
+
+.main-heading > h4
+{
+  color:#fff;
+  margin:0;
+  padding:0;
+  float:left;
+  box-sizing:border-box;
+  width:100%;
+  font-size:14px;
+}
+
+.main-heading > div
+{
+  box-sizing:border-box;
+  width:100%;
+  position: relative;
+  padding:15px;
+  white-space: nowrap;
+  height:70px;
+  overflow-x:auto;
+  overflow-y: hidden;
+}
+
+.main-heading > div > button
+{
+  float:none;
+  display:inline-block;
+  box-sizing:border-box;
+  width:auto;
+  border:none;
+  margin:0;
+  padding:7px;
+}
+
+.main-bottom-wrapper
+{
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+  background-color: #fff;
+}
+
+.main-bottom-wrapper > button
+{
+  float:left;
+  width:16.6%;
+  transition:ease-in-out .3s;
+  box-sizing:border-box;
+  background-color:#fff;
+  color:#aaa;
+  border:3px solid transparent;
+  padding:7px;
+}
+
+.main-bottom-wrapper > button:hover
+{
+  background-color:rgb(0,150,255);
+  color:#fff;
+}
+
+.bt-active
+{
+  border-top:3px solid rgb(0,150,255);
+}
+
+.tab-body
+{
+  float:left;
+  width:100%;
+  padding:10px;
+  height:510px;
+  position:realtive;
+  overflow-y:auto;
+}
+
+.tab-Title
+{
+  margin:0;
+  float:left;
+  box-sizing:border-box;
+  width:100%;
+}
+
+.tab-title > h4
+{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  color:#fff;
+  font-size:15px;
+  margin:0;
+  background-color:rgb(0,150,255);
+  padding:10px;
 }
